@@ -5,3 +5,24 @@
 <p align="center">
   <img alt="Projeto Discover" src=".github/preview.jpg" width="100%">
 </p>
+
+## Technologias
+
+- HTML e CSS
+- JavaScript
+- Git e Github
+- Figma
+
+## Projeto
+
+O DevLinks é um agregador de links para usar como cartão de visitas online.
+
+## Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+<br>
+<br>
+<i>by João Gabriel</i>

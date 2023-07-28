@@ -176,14 +176,12 @@ footer i {
 }
 
 ::-webkit-scrollbar-track {
-  background: #ffffff;
-  border: 2px solid;
+  background: #f2f2f2;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 1rem;
-  border: 1px solid;
-  background: #29006b;
+  background: #df77cb;
 }
 
 /* text {
@@ -210,11 +208,11 @@ text:hover {
 
 @media (min-width: 789px) {
   :root {
-    --bg-url: url("/assets/bg-desktop.jpg");
+    --bg-url: url("/assets/bg-desktop.png");
   }
 
   .light {
-    --bg-url: url("/assets/bg-desktop-light.jpg");
+    --bg-url: url("/assets/bg-desktop-light.png");
   }
 }
 

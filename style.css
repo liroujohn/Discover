@@ -16,7 +16,7 @@ button {
   --surface-color: rgba(255, 255, 255, 0.1);
   --surface-color-hover: rgba(255, 255, 255, 0.15);
   --highlight-color: rgba(255, 255, 255, 0.1);
-  --switch-bg-url: url(/assets/MoonStars.svg);
+  --switch-bg-url: url("/assets/MoonStars.svg");
 }
 
 .light {
@@ -27,14 +27,8 @@ button {
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.1);
   --highlight-color: rgba(0, 0, 0, 0.1);
-  --switch-bg-url: url(/assets/Sun.svg);
+  --switch-bg-url: url("/assets/Sun.svg");
 }
-
-/* @media (max-widht: 450px) {
-  body {
-    background: var(--bg-url-desktop) no-repeat top center/ cover;
-  }
-} */
 
 body {
   background: var(--bg-url) no-repeat top center/ cover;
@@ -216,11 +210,11 @@ text:hover {
 
 @media (min-width: 789px) {
   :root {
-    --bg-url: url(../assets/bg-desktop.jpg);
+    --bg-url: url("/assets/bg-desktop.jpg");
   }
 
   .light {
-    --bg-url: url(../assets/bg-desktop-light.jpg);
+    --bg-url: url("/assets/bg-desktop-light.jpg");
   }
 }
 

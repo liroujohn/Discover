@@ -214,6 +214,10 @@ text:hover {
   .light {
     --bg-url: url("/assets/bg-desktop-light.png");
   }
+
+  body {
+    outline: none;
+  }
 }
 
 /* animation */
